@@ -1,0 +1,29 @@
+.PokeDex
+{
+    width: 95%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 25px auto;
+    background: white;
+    border-radius: 1em;
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, .40);
+}
+.PokeDex h1
+{
+    margin: 10px auto;
+    width: 25%;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3.0em;
+    color: #3b4cca;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, .45);
+}
+
+/* Media Quires */
+@media only screen and (max-width: 768px){
+    .PokeDex h1 {
+        width: 100%;
+        margin: 5px 0 0 0;
+        font-size: 2.0em;
+    }
+}

@@ -8,12 +8,12 @@ import pokeDex from '../img/poke-dex.png';
 
 const Header = props =>
     <header>
-        <img className='pokeBall-img' src={pokeBall} />
+        <img className='pokeBall-img' alt='pokeball' src={pokeBall} />
         <div className='poke-title'>
-            <img className='pokeTitle-img' src={pokeTitle} />
-            <img className='pokeDex-img' src={pokeDex} />
+            <img className='pokeTitle-img' alt='poketitle' src={pokeTitle} />
+            <img className='pokeDex-img' alt='pokedex' src={pokeDex} />
         </div>
-        <img className='pokeBall-img second-ball' src={pokeBall} />
+        <img className='pokeBall-img second-ball' alt='pokeball' src={pokeBall} />
     </header>;
 
 export default Header

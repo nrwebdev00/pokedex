@@ -7,13 +7,13 @@ import PokeDex from '../components/PokeDex';
 class App extends Component {
 
   state = {
-    data: null
+    pokemon: null
   };
 
   fetchPokemon = () =>
     fetch('https://pokeapi.co/api/v2/pokemon?limit=151')
     .then(respone => respone.json())
-    .then(data => this.setState({ data })
+    .then(pokemon => this.setState({ pokemon })
   );
 
   componentDidMount(){
@@ -26,7 +26,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <PokeDex />
+        <PokeDex 
+          pokemon={this.state.pokemon}
+        />
       </div>
     );
   }

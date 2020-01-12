@@ -1,8 +1,10 @@
 import React from 'react';
 
+import '../css/PokeDex.css';
+
 const PokeDex = props =>
-    <div className="PokeDex">
-        <h1>This is the PokeDex</h1>
+    <div className="PokeDex">{console.log(props.pokemon)}
+        <h1>PokeDex</h1>
     </div>;
 
 export default PokeDex
