@@ -1,0 +1,17 @@
+.App
+{
+    width: 85%;
+    height: 100vh;
+    margin: 40px auto;
+    border: 1px solid black;
+    border-radius: 1em;
+    box-shadow: 3px 5px 25px rgba(0, 0, 0, .65);
+    font-family: 'Gayathri', sans-serif;
+}
+
+/* Media Quires */
+@media only screen and (max-width: 600px){
+    .App{
+        width: 95%;
+    }
+}

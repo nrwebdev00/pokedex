@@ -1,0 +1,13 @@
+colors
+
+red #ff0000
+boston-red #CC0000
+blue: #3b4cca
+yellow: #FFDE00
+tan: #b3A125
+
+fonts
+
+block title font 'Fredoka One', cursive
+default text 'Gayathri', sans-serif
+standout title font 'Permanent Marker', cursive
